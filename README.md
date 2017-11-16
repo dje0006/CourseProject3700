@@ -11,11 +11,17 @@ Current State of the system: The system reflects the three use cases that are re
 -The system allows a cashier/manager to checkout a customer.
 -The system allows a manager to add a product.
 -The system allows a manager to update a product.
+-The system allows a cashier/manager to log in.
+-The system allows a cashier/manager to change their login password.
+-The system allows a cashier/manager to change their display/profile photo.
+-The system allows a cashier/manager to create a new user, assign a role, and give them a password.
+-The system allows a manager to view and sort a business report.
 
 This system uses SQLite-jdbc-3.20.0.
 
 The classes of this system are as follows:
 -Customer.java
+-Cart.java
 -InventoryItem.java
 -PaymentDetails.java
 -PaymentType.java
