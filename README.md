@@ -16,6 +16,7 @@ Current State of the system: The system reflects the three use cases that are re
 -The system allows a cashier/manager to change their display/profile photo.
 -The system allows a cashier/manager to create a new user, assign a role, and give them a password.
 -The system allows a manager to view and sort a business report.
+-The system allows a cashier to generate a receipt after a transaction has been completed.
 
 This system uses SQLite-jdbc-3.20.0.
 
@@ -34,6 +35,8 @@ The classes of this system are as follows:
 -SelectApp.java
 -SQLiteJDBCDriverConnection.java
 -UpdateApp.java
+-TXTReceiptBuilder.java
+-ReceiptBuilder.java
 -Store.db
 
 Code written and developed in the JGRASP IDE.
